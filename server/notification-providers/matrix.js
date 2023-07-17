@@ -9,7 +9,7 @@ class Matrix extends NotificationProvider {
     async send(notification, msg, monitorJSON = null, heartbeatJSON = null) {
         let okMsg = "Sent Successfully.";
 
-        const size = 20;
+        const size = 1;
         const randomString = encodeURIComponent(
             Crypto
                 .randomBytes(size)
